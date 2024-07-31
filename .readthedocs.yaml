@@ -7,6 +7,8 @@ build:
 
 python:
   install:
+    - method: pip
+    - path: Docs
     - requirements: Docs/source/requirements.txt
 
 sphinx:
